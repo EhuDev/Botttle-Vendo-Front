@@ -4,19 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+
     <title>Hello Bahoo</title>
   </head>
-  <header class="flex justify-center items-center h-screen m-auto">
-    <ul class="flex justify-center items-center h-screen">
-      <a href="" class="active">Home</a>
-      <a href="">About</a>
-      <a href="">Product</a>
-    </ul>
-    <div class="flex">
-      <div>login</div>
-      <div>register</div>
-    </div>
-  </header>
 
-  <body></body>
+  <body>
+    <div
+      class="mt-20 w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-50"
+    >
+      <div class="flex flex-col items-center pb-20">
+        <img
+          src="machine-icon.png"
+          class="w-[150px] h-[200px] py-6"
+          alt="machine-icon"
+          text-xl
+          font-medium
+          text-center
+          text-gray-600
+          dark:text-gray-200
+        />
+        <h1
+          class="text-2xl font-medium text-center text-gray-950 dark:text-gray-950"
+        >
+          Hi.
+        </h1>
+
+        <p
+          class="text-xl font-medium text-center text-gray-600 dark:text-gray-950"
+        >
+          Welcome to Vending Machine
+        </p>
+      </div>
+      <div class="flex flex-col pb-0 items-center">
+        <a href="register.html">
+          <button
+            class="bg-[#08ECD9] hover:bg-blue-700 text-white font-bold py-4 px-5 mx-10 w-80 rounded-lg"
+          >
+            Get Started
+          </button>
+        </a>
+        <a href="login.html">
+          <button
+            class="bg-[#08ECD9] hover:bg-blue-700 text-white font-bold my-4 py-4 px-5 mx-10 w-40 rounded-lg"
+          >
+            Login
+          </button>
+        </a>
+      </div>
+    </div>
+  </body>
 </html>
